@@ -1,6 +1,9 @@
 src/flash_encrypt.o: \
  /home/real-iot/esp/esp-idf/components/bootloader_support/src/flash_encrypt.c \
- /home/real-iot/esp/esp-idf/components/newlib/include/strings.h \
+ /home/real-iot/esp/blink/components/arduino/libraries/AzureIoT/src/az_iot/c-utility/inc/azure_c_shared_utility/strings.h \
+ /home/real-iot/esp/blink/components/arduino/libraries/AzureIoT/src/az_iot/c-utility/inc/azure_c_shared_utility/umock_c_prod.h \
+ /home/real-iot/esp/blink/components/arduino/libraries/AzureIoT/src/az_iot/c-utility/inc/azure_c_shared_utility/macro_utils.h \
+ /home/real-iot/esp/esp-idf/components/newlib/include/string.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/newlib.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/sys/config.h \
@@ -13,15 +16,17 @@ src/flash_encrypt.o: \
  /home/real-iot/esp/esp-idf/components/newlib/include/machine/_types.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/sys/lock.h \
- /home/real-iot/esp/esp-idf/components/newlib/include/sys/types.h \
- /home/real-iot/esp/esp-idf/components/newlib/include/machine/types.h \
- /home/real-iot/esp/esp-idf/components/newlib/include/sys/sched.h \
+ /home/real-iot/esp/esp-idf/components/newlib/include/sys/cdefs.h \
+ /home/real-iot/esp/esp-idf/components/newlib/include/sys/string.h \
+ /home/real-iot/esp/blink/components/arduino/libraries/AzureIoT/src/az_iot/c-utility/inc/azure_c_shared_utility/strings_types.h \
  /home/real-iot/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/stdint.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/stdio.h \
- /home/real-iot/esp/esp-idf/components/newlib/include/sys/cdefs.h \
+ /home/real-iot/esp/esp-idf/components/newlib/include/sys/types.h \
+ /home/real-iot/esp/esp-idf/components/newlib/include/machine/types.h \
+ /home/real-iot/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/real-iot/esp/esp-idf/components/newlib/platform_include/assert.h \
  /home/real-iot/esp/blink/build/include/sdkconfig.h \
@@ -66,7 +71,13 @@ src/flash_encrypt.o: \
  /home/real-iot/esp/esp-idf/components/esp32/include/rom/spi_flash.h \
  /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/spi_reg.h
 
-/home/real-iot/esp/esp-idf/components/newlib/include/strings.h:
+/home/real-iot/esp/blink/components/arduino/libraries/AzureIoT/src/az_iot/c-utility/inc/azure_c_shared_utility/strings.h:
+
+/home/real-iot/esp/blink/components/arduino/libraries/AzureIoT/src/az_iot/c-utility/inc/azure_c_shared_utility/umock_c_prod.h:
+
+/home/real-iot/esp/blink/components/arduino/libraries/AzureIoT/src/az_iot/c-utility/inc/azure_c_shared_utility/macro_utils.h:
+
+/home/real-iot/esp/esp-idf/components/newlib/include/string.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/include/_ansi.h:
 
@@ -92,11 +103,11 @@ src/flash_encrypt.o: \
 
 /home/real-iot/esp/esp-idf/components/newlib/include/sys/lock.h:
 
-/home/real-iot/esp/esp-idf/components/newlib/include/sys/types.h:
+/home/real-iot/esp/esp-idf/components/newlib/include/sys/cdefs.h:
 
-/home/real-iot/esp/esp-idf/components/newlib/include/machine/types.h:
+/home/real-iot/esp/esp-idf/components/newlib/include/sys/string.h:
 
-/home/real-iot/esp/esp-idf/components/newlib/include/sys/sched.h:
+/home/real-iot/esp/blink/components/arduino/libraries/AzureIoT/src/az_iot/c-utility/inc/azure_c_shared_utility/strings_types.h:
 
 /home/real-iot/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h:
 
@@ -108,7 +119,11 @@ src/flash_encrypt.o: \
 
 /home/real-iot/esp/esp-idf/components/newlib/include/stdio.h:
 
-/home/real-iot/esp/esp-idf/components/newlib/include/sys/cdefs.h:
+/home/real-iot/esp/esp-idf/components/newlib/include/sys/types.h:
+
+/home/real-iot/esp/esp-idf/components/newlib/include/machine/types.h:
+
+/home/real-iot/esp/esp-idf/components/newlib/include/sys/sched.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/include/sys/stdio.h:
 

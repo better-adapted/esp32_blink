@@ -1,6 +1,9 @@
 port/mbedtls_debug.o: \
  /home/real-iot/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c \
- /home/real-iot/esp/esp-idf/components/newlib/include/strings.h \
+ /home/real-iot/esp/blink/components/arduino/libraries/AzureIoT/src/az_iot/c-utility/inc/azure_c_shared_utility/strings.h \
+ /home/real-iot/esp/blink/components/arduino/libraries/AzureIoT/src/az_iot/c-utility/inc/azure_c_shared_utility/umock_c_prod.h \
+ /home/real-iot/esp/blink/components/arduino/libraries/AzureIoT/src/az_iot/c-utility/inc/azure_c_shared_utility/macro_utils.h \
+ /home/real-iot/esp/esp-idf/components/newlib/include/string.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/newlib.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/sys/config.h \
@@ -13,9 +16,9 @@ port/mbedtls_debug.o: \
  /home/real-iot/esp/esp-idf/components/newlib/include/machine/_types.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/sys/lock.h \
- /home/real-iot/esp/esp-idf/components/newlib/include/sys/types.h \
- /home/real-iot/esp/esp-idf/components/newlib/include/machine/types.h \
- /home/real-iot/esp/esp-idf/components/newlib/include/sys/sched.h \
+ /home/real-iot/esp/esp-idf/components/newlib/include/sys/cdefs.h \
+ /home/real-iot/esp/esp-idf/components/newlib/include/sys/string.h \
+ /home/real-iot/esp/blink/components/arduino/libraries/AzureIoT/src/az_iot/c-utility/inc/azure_c_shared_utility/strings_types.h \
  /home/real-iot/esp/esp-idf/components/log/include/esp_log.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/stdint.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -25,7 +28,6 @@ port/mbedtls_debug.o: \
  /home/real-iot/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/real-iot/esp/esp-idf/components/newlib/platform_include/assert.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/stdlib.h \
- /home/real-iot/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/alloca.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/assert.h \
@@ -38,6 +40,9 @@ port/mbedtls_debug.o: \
  /home/real-iot/esp/esp-idf/components/newlib/platform_include/time.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/time.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/machine/time.h \
+ /home/real-iot/esp/esp-idf/components/newlib/include/sys/types.h \
+ /home/real-iot/esp/esp-idf/components/newlib/include/machine/types.h \
+ /home/real-iot/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/stdio.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/real-iot/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/debug.h \
@@ -59,7 +64,13 @@ port/mbedtls_debug.o: \
  /home/real-iot/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h \
  /home/real-iot/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_debug.h
 
-/home/real-iot/esp/esp-idf/components/newlib/include/strings.h:
+/home/real-iot/esp/blink/components/arduino/libraries/AzureIoT/src/az_iot/c-utility/inc/azure_c_shared_utility/strings.h:
+
+/home/real-iot/esp/blink/components/arduino/libraries/AzureIoT/src/az_iot/c-utility/inc/azure_c_shared_utility/umock_c_prod.h:
+
+/home/real-iot/esp/blink/components/arduino/libraries/AzureIoT/src/az_iot/c-utility/inc/azure_c_shared_utility/macro_utils.h:
+
+/home/real-iot/esp/esp-idf/components/newlib/include/string.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/include/_ansi.h:
 
@@ -85,11 +96,11 @@ port/mbedtls_debug.o: \
 
 /home/real-iot/esp/esp-idf/components/newlib/include/sys/lock.h:
 
-/home/real-iot/esp/esp-idf/components/newlib/include/sys/types.h:
+/home/real-iot/esp/esp-idf/components/newlib/include/sys/cdefs.h:
 
-/home/real-iot/esp/esp-idf/components/newlib/include/machine/types.h:
+/home/real-iot/esp/esp-idf/components/newlib/include/sys/string.h:
 
-/home/real-iot/esp/esp-idf/components/newlib/include/sys/sched.h:
+/home/real-iot/esp/blink/components/arduino/libraries/AzureIoT/src/az_iot/c-utility/inc/azure_c_shared_utility/strings_types.h:
 
 /home/real-iot/esp/esp-idf/components/log/include/esp_log.h:
 
@@ -108,8 +119,6 @@ port/mbedtls_debug.o: \
 /home/real-iot/esp/esp-idf/components/newlib/platform_include/assert.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/include/stdlib.h:
-
-/home/real-iot/esp/esp-idf/components/newlib/include/sys/cdefs.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/include/machine/stdlib.h:
 
@@ -134,6 +143,12 @@ port/mbedtls_debug.o: \
 /home/real-iot/esp/esp-idf/components/newlib/include/time.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/include/machine/time.h:
+
+/home/real-iot/esp/esp-idf/components/newlib/include/sys/types.h:
+
+/home/real-iot/esp/esp-idf/components/newlib/include/machine/types.h:
+
+/home/real-iot/esp/esp-idf/components/newlib/include/sys/sched.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/include/stdio.h:
 

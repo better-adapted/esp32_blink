@@ -2,10 +2,10 @@ libcoap/src/mem.o: \
  /home/real-iot/esp/esp-idf/components/coap/libcoap/src/mem.c \
  /home/real-iot/esp/esp-idf/components/coap/port/include/coap_config.h \
  /home/real-iot/esp/esp-idf/components/coap/port/include/coap_config_posix.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/sys/socket.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/lwipopts.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/posix/sys/socket.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/sockets.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/opt.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/lwipopts.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -77,13 +77,13 @@ libcoap/src/mem.o: \
  /home/real-iot/esp/esp-idf/components/esp32/include/xtensa/xtensa-versions.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
  /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/cc.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/arch.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/cc.h \
  /home/real-iot/esp/esp-idf/components/newlib/platform_include/errno.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/errno.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/sys/errno.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/sys_arch.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
@@ -108,36 +108,33 @@ libcoap/src/mem.o: \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h \
- /home/real-iot/esp/esp-idf/components/newlib/include/inttypes.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/err.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/inet.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/errno.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/vfs_lwip.h \
+ /home/real-iot/esp/esp-idf/components/newlib/include/string.h \
+ /home/real-iot/esp/esp-idf/components/newlib/include/sys/string.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/def.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip4_addr.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/err.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/inet.h \
  /home/real-iot/esp/esp-idf/components/coap/libcoap/include/coap/mem.h \
  /home/real-iot/esp/esp-idf/components/coap/libcoap/include/coap/debug.h \
  /home/real-iot/esp/esp-idf/components/coap/libcoap/include/coap/pdu.h \
  /home/real-iot/esp/esp-idf/components/coap/libcoap/include/coap/uri.h \
  /home/real-iot/esp/esp-idf/components/coap/libcoap/include/coap/hashkey.h \
- /home/real-iot/esp/esp-idf/components/coap/libcoap/include/coap/str.h \
- /home/real-iot/esp/esp-idf/components/newlib/include/string.h \
- /home/real-iot/esp/esp-idf/components/newlib/include/sys/string.h
+ /home/real-iot/esp/esp-idf/components/coap/libcoap/include/coap/str.h
 
 /home/real-iot/esp/esp-idf/components/coap/port/include/coap_config.h:
 
 /home/real-iot/esp/esp-idf/components/coap/port/include/coap_config_posix.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/sys/socket.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/posix/sys/socket.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/sockets.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/opt.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/lwipopts.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/lwipopts.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -281,11 +278,11 @@ libcoap/src/mem.o: \
 
 /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/arch.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/cc.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/cc.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/platform_include/errno.h:
 
@@ -293,7 +290,7 @@ libcoap/src/mem.o: \
 
 /home/real-iot/esp/esp-idf/components/newlib/include/sys/errno.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/sys_arch.h:
 
 /home/real-iot/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -343,25 +340,23 @@ libcoap/src/mem.o: \
 
 /home/real-iot/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/vfs_lwip.h:
 
-/home/real-iot/esp/esp-idf/components/newlib/include/inttypes.h:
+/home/real-iot/esp/esp-idf/components/newlib/include/string.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:
+/home/real-iot/esp/esp-idf/components/newlib/include/sys/string.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/def.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip4_addr.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/err.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/err.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:
-
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/errno.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/inet.h:
 
 /home/real-iot/esp/esp-idf/components/coap/libcoap/include/coap/mem.h:
 
@@ -374,8 +369,4 @@ libcoap/src/mem.o: \
 /home/real-iot/esp/esp-idf/components/coap/libcoap/include/coap/hashkey.h:
 
 /home/real-iot/esp/esp-idf/components/coap/libcoap/include/coap/str.h:
-
-/home/real-iot/esp/esp-idf/components/newlib/include/string.h:
-
-/home/real-iot/esp/esp-idf/components/newlib/include/sys/string.h:
 /home/real-iot/esp/esp-idf/components/coap/libcoap/src/mem.c:

@@ -89,10 +89,6 @@ sleep_modes.o: /home/real-iot/esp/esp-idf/components/esp32/sleep_modes.c \
  /home/real-iot/esp/esp-idf/components/driver/include/driver/rtc_io.h \
  /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/rtc_gpio_channel.h \
  /home/real-iot/esp/esp-idf/components/soc/include/soc/rtc_periph.h \
- /home/real-iot/esp/esp-idf/components/driver/include/driver/uart.h \
- /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/uart_struct.h \
- /home/real-iot/esp/esp-idf/components/driver/include/driver/periph_ctrl.h \
- /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
@@ -108,14 +104,9 @@ sleep_modes.o: /home/real-iot/esp/esp-idf/components/esp32/sleep_modes.c \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/portbenchmark.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/esp_system.h \
- /home/real-iot/esp/esp-idf/components/freertos/include/freertos/semphr.h \
- /home/real-iot/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/task.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/limits.h \
- /home/real-iot/esp/esp-idf/components/freertos/include/freertos/list.h \
- /home/real-iot/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/real-iot/esp/esp-idf/components/freertos/include/freertos/ringbuf.h \
- /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/uart_channel.h
+ /home/real-iot/esp/esp-idf/components/freertos/include/freertos/list.h
 
 /home/real-iot/esp/esp-idf/components/newlib/include/sys/lock.h:
 
@@ -297,14 +288,6 @@ sleep_modes.o: /home/real-iot/esp/esp-idf/components/esp32/sleep_modes.c \
 
 /home/real-iot/esp/esp-idf/components/soc/include/soc/rtc_periph.h:
 
-/home/real-iot/esp/esp-idf/components/driver/include/driver/uart.h:
-
-/home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/uart_struct.h:
-
-/home/real-iot/esp/esp-idf/components/driver/include/driver/periph_ctrl.h:
-
-/home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h:
-
 /home/real-iot/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
 /home/real-iot/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
@@ -335,19 +318,9 @@ sleep_modes.o: /home/real-iot/esp/esp-idf/components/esp32/sleep_modes.c \
 
 /home/real-iot/esp/esp-idf/components/esp32/include/esp_system.h:
 
-/home/real-iot/esp/esp-idf/components/freertos/include/freertos/semphr.h:
-
-/home/real-iot/esp/esp-idf/components/freertos/include/freertos/queue.h:
-
 /home/real-iot/esp/esp-idf/components/freertos/include/freertos/task.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/include/limits.h:
 
 /home/real-iot/esp/esp-idf/components/freertos/include/freertos/list.h:
-
-/home/real-iot/esp/esp-idf/components/freertos/include/freertos/queue.h:
-
-/home/real-iot/esp/esp-idf/components/freertos/include/freertos/ringbuf.h:
-
-/home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/uart_channel.h:
 /home/real-iot/esp/esp-idf/components/esp32/./sleep_modes.c:

@@ -60,9 +60,9 @@ emac_main.o: /home/real-iot/esp/esp-idf/components/ethernet/emac_main.c \
  /home/real-iot/esp/esp-idf/components/esp32/include/rom/queue.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/esp_interface.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/lwipopts.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/opt.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/lwipopts.h \
  /home/real-iot/esp/esp-idf/components/newlib/platform_include/time.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/time.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/machine/time.h \
@@ -92,13 +92,13 @@ emac_main.o: /home/real-iot/esp/esp-idf/components/ethernet/emac_main.c \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/xtensa/config/system.h \
  /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/cc.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/arch.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/cc.h \
  /home/real-iot/esp/esp-idf/components/newlib/platform_include/errno.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/errno.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/sys/errno.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/sys_arch.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
@@ -119,13 +119,11 @@ emac_main.o: /home/real-iot/esp/esp-idf/components/ethernet/emac_main.c \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h \
- /home/real-iot/esp/esp-idf/components/newlib/include/inttypes.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
- /home/real-iot/esp/esp-idf/components/lwip/include/apps/dhcpserver/dhcpserver.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/vfs_lwip.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/def.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip4_addr.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/apps/dhcpserver.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/esp_task_wdt.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/esp_event.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/esp_wifi_types.h \
@@ -141,7 +139,7 @@ emac_main.o: /home/real-iot/esp/esp-idf/components/ethernet/emac_main.c \
  /home/real-iot/esp/esp-idf/components/ethernet/emac_desc.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/timers.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/task.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/err.h
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/err.h
 
 /home/real-iot/esp/esp-idf/components/newlib/include/stdio.h:
 
@@ -265,11 +263,11 @@ emac_main.o: /home/real-iot/esp/esp-idf/components/ethernet/emac_main.c \
 
 /home/real-iot/esp/esp-idf/components/esp32/include/esp_interface.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/opt.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/lwipopts.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/lwipopts.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/platform_include/time.h:
 
@@ -329,11 +327,11 @@ emac_main.o: /home/real-iot/esp/esp-idf/components/ethernet/emac_main.c \
 
 /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/arch.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/cc.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/cc.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/platform_include/errno.h:
 
@@ -341,7 +339,7 @@ emac_main.o: /home/real-iot/esp/esp-idf/components/ethernet/emac_main.c \
 
 /home/real-iot/esp/esp-idf/components/newlib/include/sys/errno.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/sys_arch.h:
 
 /home/real-iot/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -383,19 +381,15 @@ emac_main.o: /home/real-iot/esp/esp-idf/components/ethernet/emac_main.c \
 
 /home/real-iot/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/vfs_lwip.h:
 
-/home/real-iot/esp/esp-idf/components/newlib/include/inttypes.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/def.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip4_addr.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h:
-
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
-
-/home/real-iot/esp/esp-idf/components/lwip/include/apps/dhcpserver/dhcpserver.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/apps/dhcpserver.h:
 
 /home/real-iot/esp/esp-idf/components/esp32/include/esp_task_wdt.h:
 
@@ -427,5 +421,5 @@ emac_main.o: /home/real-iot/esp/esp-idf/components/ethernet/emac_main.c \
 
 /home/real-iot/esp/esp-idf/components/freertos/include/freertos/task.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/err.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/err.h:
 /home/real-iot/esp/esp-idf/components/ethernet/./emac_main.c:

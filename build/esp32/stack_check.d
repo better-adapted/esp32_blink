@@ -56,7 +56,10 @@ stack_check.o: /home/real-iot/esp/esp-idf/components/esp32/stack_check.c \
  /home/real-iot/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/xtensa/xtensa-versions.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
- /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h
+ /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
+ /home/real-iot/esp/esp-idf/components/log/include/esp_log.h \
+ /home/real-iot/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /home/real-iot/esp/esp-idf/components/log/include/esp_log_internal.h
 
 /home/real-iot/esp/blink/build/include/sdkconfig.h:
 
@@ -173,4 +176,10 @@ stack_check.o: /home/real-iot/esp/esp-idf/components/esp32/stack_check.c \
 /home/real-iot/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h:
 
 /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h:
+
+/home/real-iot/esp/esp-idf/components/log/include/esp_log.h:
+
+/home/real-iot/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
+
+/home/real-iot/esp/esp-idf/components/log/include/esp_log_internal.h:
 /home/real-iot/esp/esp-idf/components/esp32/./stack_check.c:

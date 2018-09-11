@@ -74,7 +74,8 @@ spiram_psram.o: \
  /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
  /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/spi_pins.h \
  /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/spi_struct.h \
- /home/real-iot/esp/esp-idf/components/driver/include/driver/periph_ctrl.h
+ /home/real-iot/esp/esp-idf/components/driver/include/driver/periph_ctrl.h \
+ /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/rtc.h
 
 /home/real-iot/esp/blink/build/include/sdkconfig.h:
 
@@ -225,4 +226,6 @@ spiram_psram.o: \
 /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/spi_struct.h:
 
 /home/real-iot/esp/esp-idf/components/driver/include/driver/periph_ctrl.h:
+
+/home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/rtc.h:
 /home/real-iot/esp/esp-idf/components/esp32/./spiram_psram.c:

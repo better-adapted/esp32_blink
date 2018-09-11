@@ -32,9 +32,9 @@ mdns.o: /home/real-iot/esp/esp-idf/components/mdns/mdns.c \
  /home/real-iot/esp/esp-idf/components/newlib/include/alloca.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/assert.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/esp_interface.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/lwipopts.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/opt.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/lwipopts.h \
  /home/real-iot/esp/esp-idf/components/newlib/platform_include/time.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/time.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/machine/time.h \
@@ -79,13 +79,13 @@ mdns.o: /home/real-iot/esp/esp-idf/components/mdns/mdns.c \
  /home/real-iot/esp/esp-idf/components/esp32/include/xtensa/xtensa-versions.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
  /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/cc.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/arch.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/cc.h \
  /home/real-iot/esp/esp-idf/components/newlib/platform_include/errno.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/errno.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/sys/errno.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/sys_arch.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
@@ -110,40 +110,34 @@ mdns.o: /home/real-iot/esp/esp-idf/components/mdns/mdns.c \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h \
- /home/real-iot/esp/esp-idf/components/newlib/include/inttypes.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
- /home/real-iot/esp/esp-idf/components/lwip/include/apps/dhcpserver/dhcpserver.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/vfs_lwip.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/def.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip4_addr.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/apps/dhcpserver.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/esp_event.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/esp_wifi_types.h \
  /home/real-iot/esp/esp-idf/components/mdns/private_include/mdns_private.h \
  /home/real-iot/esp/esp-idf/components/mdns/private_include/mdns_networking.h \
  /home/real-iot/esp/esp-idf/components/mdns/private_include/mdns_private.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/pbuf.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/err.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/igmp.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/netif.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/stats.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/mem.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/memp.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_std.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_priv.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/udp.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip4.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip6.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/udp.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/mld6.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/priv/tcpip_priv.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/tcpip.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/timeouts.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/sys.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/pbuf.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/err.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/igmp.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/netif.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/stats.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/mem.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/memp.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/priv/memp_std.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/priv/memp_priv.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/udp.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip4.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip6.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/mld6.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/priv/tcpip_priv.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/tcpip.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/timers.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/sys.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/esp_wifi.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/esp_wifi_crypto_types.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/esp_event.h \
@@ -218,11 +212,11 @@ mdns.o: /home/real-iot/esp/esp-idf/components/mdns/mdns.c \
 
 /home/real-iot/esp/esp-idf/components/esp32/include/esp_interface.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/opt.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/lwipopts.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/lwipopts.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/platform_include/time.h:
 
@@ -312,11 +306,11 @@ mdns.o: /home/real-iot/esp/esp-idf/components/mdns/mdns.c \
 
 /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/arch.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/cc.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/cc.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/platform_include/errno.h:
 
@@ -324,7 +318,7 @@ mdns.o: /home/real-iot/esp/esp-idf/components/mdns/mdns.c \
 
 /home/real-iot/esp/esp-idf/components/newlib/include/sys/errno.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/sys_arch.h:
 
 /home/real-iot/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -374,19 +368,15 @@ mdns.o: /home/real-iot/esp/esp-idf/components/mdns/mdns.c \
 
 /home/real-iot/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/vfs_lwip.h:
 
-/home/real-iot/esp/esp-idf/components/newlib/include/inttypes.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/def.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip4_addr.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h:
-
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
-
-/home/real-iot/esp/esp-idf/components/lwip/include/apps/dhcpserver/dhcpserver.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/apps/dhcpserver.h:
 
 /home/real-iot/esp/esp-idf/components/esp32/include/esp_event.h:
 
@@ -398,49 +388,41 @@ mdns.o: /home/real-iot/esp/esp-idf/components/mdns/mdns.c \
 
 /home/real-iot/esp/esp-idf/components/mdns/private_include/mdns_private.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/pbuf.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/pbuf.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/err.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/err.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/igmp.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/igmp.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/netif.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/netif.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/stats.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/stats.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/mem.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/mem.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/memp.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/memp.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_std.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/priv/memp_std.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_priv.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/priv/memp_priv.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/udp.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/udp.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip4.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip4.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip6.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/mld6.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip6.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/priv/tcpip_priv.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/ip.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/tcpip.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/prot/udp.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/timers.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/mld6.h:
-
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/priv/tcpip_priv.h:
-
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/tcpip.h:
-
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/timeouts.h:
-
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/sys.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/sys.h:
 
 /home/real-iot/esp/esp-idf/components/esp32/include/esp_wifi.h:
 

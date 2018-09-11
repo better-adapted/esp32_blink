@@ -23,6 +23,8 @@ deps_config := \
 	/home/real-iot/esp/esp-idf/components/tcpip_adapter/Kconfig \
 	/home/real-iot/esp/esp-idf/components/vfs/Kconfig \
 	/home/real-iot/esp/esp-idf/components/wear_levelling/Kconfig \
+	/home/real-iot/esp/esp-idf/Kconfig.compiler \
+	/home/real-iot/esp/blink/components/arduino/Kconfig.projbuild \
 	/home/real-iot/esp/esp-idf/components/bootloader/Kconfig.projbuild \
 	/home/real-iot/esp/esp-idf/components/esptool_py/Kconfig.projbuild \
 	/home/real-iot/esp/blink/main/Kconfig.projbuild \
@@ -32,8 +34,5 @@ deps_config := \
 include/config/auto.conf: \
 	$(deps_config)
 
-ifneq "$(IDF_CMAKE)" "n"
-include/config/auto.conf: FORCE
-endif
 
 $(deps_config): ;

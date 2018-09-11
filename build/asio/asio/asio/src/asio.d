@@ -7,9 +7,9 @@ asio/asio/src/asio.o: \
  /home/real-iot/esp/esp-idf/components/asio/asio/asio/include/asio/impl/error.ipp \
  /home/real-iot/esp/esp-idf/components/asio/asio/asio/include/asio/error.hpp \
  /home/real-iot/esp/esp-idf/components/asio/asio/asio/include/asio/error_code.hpp \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/lwipopts.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/sockets.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/opt.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/lwipopts.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/alloca.h \
@@ -55,13 +55,13 @@ asio/asio/src/asio.o: \
  /home/real-iot/esp/esp-idf/components/esp32/include/xtensa/xtensa-versions.h \
  /home/real-iot/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
  /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/cc.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/arch.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/cc.h \
  /home/real-iot/esp/esp-idf/components/newlib/platform_include/errno.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/errno.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/sys/errno.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/sys_arch.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
@@ -86,36 +86,32 @@ asio/asio/src/asio.o: \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  /home/real-iot/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h \
- /home/real-iot/esp/esp-idf/components/newlib/include/inttypes.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/err.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/inet.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/errno.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/vfs_lwip.h \
+ /home/real-iot/esp/esp-idf/components/newlib/include/string.h \
+ /home/real-iot/esp/esp-idf/components/newlib/include/sys/string.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/def.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip4_addr.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/err.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/inet.h \
  /home/real-iot/esp/esp-idf/components/asio/asio/asio/include/asio/detail/push_options.hpp \
  /home/real-iot/esp/esp-idf/components/asio/asio/asio/include/asio/detail/pop_options.hpp \
  /home/real-iot/esp/esp-idf/components/asio/asio/asio/include/asio/system_error.hpp \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/netdb.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/netdb.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/posix/netdb.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/netdb.h \
  /home/real-iot/esp/esp-idf/components/asio/asio/asio/include/asio/impl/error_code.ipp \
  /home/real-iot/esp/esp-idf/components/asio/asio/asio/include/asio/detail/local_free_on_block_exit.hpp \
  /home/real-iot/esp/esp-idf/components/asio/asio/asio/include/asio/detail/socket_types.hpp \
  /home/real-iot/esp/esp-idf/components/newlib/platform_include/sys/poll.h \
  /home/real-iot/esp/esp-idf/components/newlib/include/fcntl.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/sys/socket.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/posix/sys/socket.h \
  /home/real-iot/esp/esp-idf/components/newlib/platform_include/sys/uio.h \
  /home/real-iot/esp/esp-idf/components/newlib/platform_include/sys/un.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/netinet/in.h \
- /home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arpa/inet.h \
- /home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/../../../lwip/src/include/lwip/inet.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/netinet/in.h \
+ /home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arpa/inet.h \
  /home/real-iot/esp/esp-idf/components/newlib/platform_include/net/if.h \
  /home/real-iot/esp/esp-idf/components/asio/port/include/esp_exception.h \
- /home/real-iot/esp/esp-idf/components/log/include/esp_log.h \
- /home/real-iot/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/real-iot/esp/esp-idf/components/asio/asio/asio/include/asio/impl/execution_context.ipp \
  /home/real-iot/esp/esp-idf/components/asio/asio/asio/include/asio/execution_context.hpp \
  /home/real-iot/esp/esp-idf/components/asio/asio/asio/include/asio/detail/noncopyable.hpp \
@@ -333,11 +329,11 @@ asio/asio/src/asio.o: \
 
 /home/real-iot/esp/esp-idf/components/asio/asio/asio/include/asio/error_code.hpp:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/sockets.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/opt.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/lwipopts.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/lwipopts.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -429,11 +425,11 @@ asio/asio/src/asio.o: \
 
 /home/real-iot/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/arch.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/cc.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/cc.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/platform_include/errno.h:
 
@@ -441,7 +437,7 @@ asio/asio/src/asio.o: \
 
 /home/real-iot/esp/esp-idf/components/newlib/include/sys/errno.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/sys_arch.h:
 
 /home/real-iot/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -491,25 +487,23 @@ asio/asio/src/asio.o: \
 
 /home/real-iot/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arch/vfs_lwip.h:
 
-/home/real-iot/esp/esp-idf/components/newlib/include/inttypes.h:
+/home/real-iot/esp/esp-idf/components/newlib/include/string.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:
+/home/real-iot/esp/esp-idf/components/newlib/include/sys/string.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/def.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip4_addr.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/err.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/err.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:
-
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/errno.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/inet.h:
 
 /home/real-iot/esp/esp-idf/components/asio/asio/asio/include/asio/detail/push_options.hpp:
 
@@ -517,9 +511,9 @@ asio/asio/src/asio.o: \
 
 /home/real-iot/esp/esp-idf/components/asio/asio/asio/include/asio/system_error.hpp:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/netdb.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/posix/netdb.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/lwip/netdb.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/lwip/netdb.h:
 
 /home/real-iot/esp/esp-idf/components/asio/asio/asio/include/asio/impl/error_code.ipp:
 
@@ -531,25 +525,19 @@ asio/asio/src/asio.o: \
 
 /home/real-iot/esp/esp-idf/components/newlib/include/fcntl.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/sys/socket.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/posix/sys/socket.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/platform_include/sys/uio.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/platform_include/sys/un.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/netinet/in.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/netinet/in.h:
 
-/home/real-iot/esp/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:
-
-/home/real-iot/esp/esp-idf/components/lwip/lwip/src/include/../../../lwip/src/include/lwip/inet.h:
+/home/real-iot/esp/esp-idf/components/lwip/include/lwip/port/arpa/inet.h:
 
 /home/real-iot/esp/esp-idf/components/newlib/platform_include/net/if.h:
 
 /home/real-iot/esp/esp-idf/components/asio/port/include/esp_exception.h:
-
-/home/real-iot/esp/esp-idf/components/log/include/esp_log.h:
-
-/home/real-iot/esp/esp-idf/components/log/include/esp_log_internal.h:
 
 /home/real-iot/esp/esp-idf/components/asio/asio/asio/include/asio/impl/execution_context.ipp:
 
